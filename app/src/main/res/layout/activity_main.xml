@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="274dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="92dp"
+        android:text="@string/title"
+        android:textAlignment="center"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/a"
+        android:layout_width="73dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="61dp"
+        android:text="@string/a"
+        android:textAlignment="center"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <TextView
+        android:id="@+id/TT1"
+        android:layout_width="73dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="41dp"
+        android:text="@string/t"
+        android:textAlignment="center"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/a" />
+
+    <TextView
+        android:id="@+id/TF1"
+        android:layout_width="73dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="45dp"
+        android:text="@string/t"
+        android:textAlignment="center"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TT1" />
+
+    <TextView
+        android:id="@+id/FT1"
+        android:layout_width="73dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/f"
+        android:textAlignment="center"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TF1" />
+
+    <TextView
+        android:id="@+id/TF2"
+        android:layout_width="73dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="49dp"
+        android:text="@string/f"
+        android:textAlignment="center"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toStartOf="@+id/answer2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/TF1"
+        app:layout_constraintTop_toBottomOf="@+id/TT2" />
+
+    <TextView
+        android:id="@+id/FT2"
+        android:layout_width="73dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="49dp"
+        android:text="@string/t"
+        android:textAlignment="center"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toStartOf="@+id/answer3"
+        app:layout_constraintStart_toEndOf="@+id/FT1"
+        app:layout_constraintTop_toBottomOf="@+id/TF2" />
+
+    <TextView
+        android:id="@+id/FF2"
+        android:layout_width="73dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="49dp"
+        android:text="@string/f"
+        android:textAlignment="center"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toStartOf="@+id/answer4"
+        app:layout_constraintStart_toEndOf="@+id/FF1"
+        app:layout_constraintTop_toBottomOf="@+id/FT2" />
+
+    <TextView
+        android:id="@+id/TT2"
+        android:layout_width="73dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="49dp"
+        android:text="@string/t"
+        android:textAlignment="center"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toStartOf="@+id/answer1"
+        app:layout_constraintStart_toEndOf="@+id/TT1"
+        app:layout_constraintTop_toBottomOf="@+id/B" />
+
+    <TextView
+        android:id="@+id/FF1"
+        android:layout_width="73dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="47dp"
+        android:text="@string/f"
+        android:textAlignment="center"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/FT1" />
+
+    <TextView
+        android:id="@+id/B"
+        android:layout_width="73dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="60dp"
+        android:text="@string/b"
+        android:textAlignment="center"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toStartOf="@+id/AB"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/a"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <TextView
+        android:id="@+id/AB"
+        android:layout_width="73dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="61dp"
+        android:layout_marginEnd="36dp"
+        android:text="@string/ab"
+        android:textAlignment="center"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="191dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="111dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="109dp"
+        android:layout_marginBottom="30dp"
+        android:text="@string/submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/FF2" />
+
+    <EditText
+        android:id="@+id/answer1"
+        android:layout_width="106dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:hint="@string/answer"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:text="@string/answer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AB" />
+
+    <EditText
+        android:id="@+id/answer2"
+        android:layout_width="106dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="14dp"
+        android:ems="10"
+        android:hint="@string/answer"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:text="@string/answer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/answer1" />
+
+    <EditText
+        android:id="@+id/answer3"
+        android:layout_width="106dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="14dp"
+        android:ems="10"
+        android:hint="@string/answer"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:text="@string/answer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/answer2" />
+
+    <EditText
+        android:id="@+id/answer4"
+        android:layout_width="106dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginEnd="14dp"
+        android:ems="10"
+        android:hint="@string/answer"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:text="@string/answer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/answer3" />
+</androidx.constraintlayout.widget.ConstraintLayout>
